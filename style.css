@@ -537,6 +537,10 @@ span {
     font-size: 1.2rem;
   }
 
+  .featured-item h3 {
+    font-size: 0.9rem;
+  }
+
   p,
   a,
   li,
