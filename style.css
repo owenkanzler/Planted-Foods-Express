@@ -583,7 +583,8 @@ dialog {
 
   .featured .grid a {
     height: 100px;
-    width: auto;
+    width: 150px;
+    object-fit: cover;
   }
 }
 
