@@ -387,6 +387,12 @@ dialog {
   font-size: 0.9rem;
 }
 
+.filler {
+  display: none;
+  height: 50px;
+  background-color: #252525;
+}
+
 /* Media */
 
 @media (max-width: 1116px) {
@@ -504,6 +510,10 @@ dialog {
     height: 100%;
     width: 100%;
     border-radius: 0 0 20px 20px;
+  }
+
+  .filler {
+    display: block;
   }
 }
 
