@@ -9,6 +9,36 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
+    <script>
+      (function (e, t, r, n) {
+        var o, c, s;
+        (o = e.document),
+          (c = t.children[0]),
+          (s = o.createElement("script")),
+          (e.StorefrontSDKObject = "StorefrontSDK"),
+          (e[e.StorefrontSDKObject] = {
+            executeCommand: function (t, r) {
+              e[e.StorefrontSDKObject].buffer.push([t, r]);
+            },
+            buffer: [],
+          }),
+          (s.async = 1),
+          (s.src =
+            "https://web-apps.cdn4dd.com/webapps/sdk-storefront/latest/sdk.js"),
+          t.insertBefore(s, c);
+      })(window, document.head);
+      StorefrontSDK.executeCommand("renderFloatingButton", {
+        businessId: 11714139,
+        businessSlug: "Planted Foods Express",
+        floatingBar: true,
+        position: "bottom",
+        buttonAlignment: "right",
+        backgroundColor: "transparent",
+        buttonBackgroundColor: "#333",
+        borderColor: "transparent",
+        buttonText: "Order Pickup & Delivery",
+      });
+    </script>
     <title>Planted Foods Express</title>
   </head>
   <body>
@@ -38,18 +68,18 @@
       <div class="container flex">
         <a href="#">Home</a>
         <a href="https://plantedfoodsexpress.hrpos.heartland.us/menu">Menu</a>
-        <a href="#" class="open-button">Delivery</a>
+<!--         <a href="#" class="open-button">Delivery</a> -->
         <a href="#about">About</a>
       </div>
     </nav>
 
-    <dialog class="modal" id="modal">
+<!--     <dialog class="modal" id="modal">
       <p>This link takes you to doordash.com. Press "OK" to continue.</p>
       <div class="flex btn-box">
         <a href="https://www.doordash.com/" class="btn">OK</a>
         <a class="btn close-button">Close</a>
       </div>
-    </dialog>
+    </dialog> -->
 
     <section class="location flex bg-img">
       <div class="container flex">
@@ -181,19 +211,19 @@
           <h3>Links</h3>
           <a href="#">Home</a>
           <a href="https://plantedfoodsexpress.hrpos.heartland.us/menu">Menu</a>
-          <a href="#" class="open-button2">Delivery</a>
+<!--           <a href="#" class="open-button2">Delivery</a> -->
           <a href="#about">About</a>
         </div>
       </div>
     </footer>
 
-    <dialog class="modal2" id="modal">
+<!--     <dialog class="modal2" id="modal">
       <p>This link takes you to doordash.com. Press "OK" to continue.</p>
       <div class="flex btn-box">
         <a href="https://www.doordash.com/" class="btn">OK</a>
         <a class="btn close-button2">Close</a>
       </div>
-    </dialog>
+    </dialog> -->
 
     <div class="secondary-footer">
       <div class="container flex">
@@ -202,6 +232,7 @@
         </p>
       </div>
     </div>
+    <div class="filler"></div>
 
     <script src="script.js"></script>
   </body>
