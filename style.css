@@ -174,20 +174,14 @@ span {
 
 /* Popup */
 
-dialog {
-  overflow: hidden;
+.announcment {
+  background-color: #252525;
+  padding: 2rem;
+  color: var(--text-color);
 }
 
-.modal,
-.modal2 {
-  height: 200px;
-  margin: auto;
-  padding: 1em;
-  max-width: 50ch;
-}
-
-#modal .btn-box .btn:last-child {
-  margin-left: 1rem;
+.announcment .container {
+  flex-direction: column;
 }
 
 /* Location */
