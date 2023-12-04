@@ -86,7 +86,6 @@ section {
 }
 
 .bg-img {
-  /* height: 55vh; */
   height: auto;
   padding: 2rem;
   background-image: url("imgs/background.png");
