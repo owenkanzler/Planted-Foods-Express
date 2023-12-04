@@ -266,10 +266,6 @@ span {
 
 /* Featured */
 
-.featured .bg-img {
-  height: 70vh;
-}
-
 .featured .flex {
   flex-direction: column;
 }
@@ -441,10 +437,6 @@ span {
     font-size: 0.9rem;
   }
 
-  .bg-img {
-    height: 45vh;
-  }
-
   .mt-1 {
     margin-top: 0.5rem;
   }
@@ -584,9 +576,6 @@ span {
 }
 
 @media (max-width: 425px) {
-  .bg-img {
-    height: 40vh;
-  }
 
   .location h1,
   .featured h2 {
