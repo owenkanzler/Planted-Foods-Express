@@ -173,7 +173,7 @@ span {
   text-decoration: underline;
 }
 
-/* .december-announcement {
+.december-announcement {
   background-color: #252525;
   padding: 2rem;
   color: var(--text-color);
@@ -181,7 +181,7 @@ span {
 
 .december-announcement .container {
   flex-direction: column;
-} */
+}
 
 /* Location */
 
